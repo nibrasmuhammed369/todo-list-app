@@ -1,0 +1,68 @@
+body {
+  background-image: url(img/todolist-background.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.logout-bar {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.4);
+  backdrop-filter: blur(3px);
+  padding: 20px;
+  margin: 15px 20px;
+  border: 1px solid black;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+
+.btn-logout {
+  padding: 3px;
+}
+
+.welcome-text {
+  font-size: 20px;
+  background-color: aliceblue;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  padding-left: 170px;
+  padding-right: 300px;
+  gap: 20px;
+}
+
+.option-container {
+  background-color: grey;
+  width: 200px;
+  padding: 10px;
+  margin: 0;
+  margin-top: 120px;
+  border-radius: 10px;
+  border: 1px solid black;
+  min-height: 450px;
+  max-height: 500px;
+}
+
+.todo-container {
+  background-color: RGB(128, 128, 128);
+  margin: auto;
+  margin-top: 120px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid black;
+  width: 550px;
+  min-height: 400px;
+  max-height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-container p {
+  display: flex;
+  justify-content: center;
+}

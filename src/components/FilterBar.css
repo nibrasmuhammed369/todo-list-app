@@ -1,0 +1,50 @@
+/* Container styling */
+.filter-wrapper {
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+.filter-heading {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* grid layout for the items */
+.filter-options {
+  display: grid;
+  gap: 5px;
+}
+
+/* Hide the actual radio circle */
+.filter-item input[type="radio"] {
+  display: none;
+}
+
+/* Base style for the filter buttons */
+.filter-item {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.2s ease;
+}
+
+/* Hover state */
+.filter-item:hover {
+  background-color: #e5e5e5;
+}
+
+/* Active/Selected state managed by React class toggling */
+.filter-item.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+  box-shadow: 0 2px 5px rgba(0, 123, 255, 0.3);
+}

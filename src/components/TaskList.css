@@ -1,0 +1,71 @@
+.task-list {
+  list-style: none;
+  padding: 0;
+  flex-grow: 1;
+  overflow: scroll;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 12px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  word-break: break-all;
+  max-width: 400px;
+}
+
+.task-item button {
+  display: inline-block;
+  height: 32px; /* Forces a clear vertical size */
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+
+/* Initial "delete" button state */
+.btn-delete {
+  background-color: #e0e0e0;
+  color: #333;
+  min-width: 70px; /* Prevents the button from shrinking to 0px */
+  border: 1px solid #ccc;
+}
+.btn-delete:hover {
+  background-color: #d0d0d0;
+}
+
+/* Wrapper to hold confirmation buttons side-by-side */
+.inline-confirm-group {
+  display: inline-flex;
+  gap: 6px;
+  min-width: 120px; /* Guarantees space for both buttons */
+}
+
+/* "sure?" button */
+.btn-sure {
+  background-color: red;
+  color: white;
+}
+.btn-sure:hover {
+  background-color: darkred;
+}
+
+/* "no" button */
+.btn-no {
+  background-color: #6c757d;
+  color: white;
+}
+.btn-no:hover {
+  background-color: #5a6268;
+}
+
+.task-text {
+  flex: 1;
+}
