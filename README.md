@@ -43,23 +43,8 @@ This is a simple yet powerful Todo List app that lets you create, manage, and tr
 
 ## 📸 Screenshots / Demo
 
-> 📷 _Add your screenshots here once the project is live!_
-
+https://github.com/user-attachments/assets/9f2990a6-095d-48b6-80e7-6b000fb41775
 ```
-[ ] Buy groceries
-[ ] Finish React project
-[x] Morning workout  ✓
-```
-
-To add screenshots:
-1. Take a screenshot of your app.
-2. Place the image in a `/screenshots` folder in your project.
-3. Replace the placeholder below:
-
-```md
-![App Demo](./screenshots/Screen Recording 2026-05-21 at 3.05.50 AM.mov)
-```
-
 ---
 
 ## 📦 Getting Started
